@@ -18,9 +18,8 @@ input {outline:none;}
 .input1:hover{
         width:675px; height:36px;
         text-indent: 15px;font-size:20px; 
-        border:1px solid #6c63ec;border-radius: 6px;
+        border:1px solid #3239fa;border-radius: 6px;
         background: rgb(236, 236, 233);
-        
         }     
       
 .input1_2{
@@ -113,22 +112,24 @@ input {outline:none;}
     function mouswheel(event)
         {   
             event=event||window.event
-           if(event.wheelDelta==120)//往上滚动
+            if(event.wheelDelta==120)//往上滚动
            {
-                location.href="index3.html";         
+                location.href="index2.html";         
                
            }else if(event.wheelDelta==(-120))  //往下滚动
            {
-                location.href="index2.html";
+                location.href="index.html";
            }
            else
            {return}
   
+  
         }   
+
 
 </script>
 
-<body  onmousewheel=mouswheel(event) background="https://pic2.zhimg.com/v2-e27b6692c148f856de9ff7da8a23c046_r.jpg">
+<body  onmousewheel=mouswheel(event) background="https://pic1.zhimg.com/v2-3c8571b86385ed945635db9eecd5c934_r.jpg">
 <!--本地图片//G:/Pictures/海.jpg    网络图片HTTP开头-->
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br> 
     <div id="div1" align="center"><input id="textid" type="text" onmouseout=mouseout() onmousedown=mousedo() onkeydown=inpt_keydown()  class="input1" >
